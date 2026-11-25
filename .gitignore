@@ -1,0 +1,4 @@
+# Stato locale e segreti della PoC: non committare
+.poc-state.json
+*.pem
+*.private-key.pem

@@ -1,0 +1,27 @@
+{
+  "01-segreti-e-sql": {
+    "titolo": "Report ordini: segreti nel codice e SQL concatenato",
+    "taskAtteso": true,
+    "regole": ["SEC-001", "SEC-002", "VAL-001", "TST-001"]
+  },
+  "02-errori-e-log": {
+    "titolo": "Notifiche e-mail: errori ignorati e dati personali nei log",
+    "taskAtteso": true,
+    "regole": ["ERR-001", "ERR-002", "LOG-001", "LOG-002", "TST-001"]
+  },
+  "03-senza-test-e-validazione": {
+    "titolo": "Sconti: nessuna validazione e nessun test",
+    "taskAtteso": true,
+    "regole": ["VAL-001", "TST-001"]
+  },
+  "04-conforme": {
+    "titolo": "Totali con IVA: codice conforme agli standard",
+    "taskAtteso": false,
+    "regole": []
+  },
+  "05-modifica-esistente": {
+    "titolo": "Modifica di service.py: token, SQL e errori",
+    "taskAtteso": true,
+    "regole": ["SEC-001", "SEC-002", "ERR-001", "LOG-001", "TST-001"]
+  }
+}
