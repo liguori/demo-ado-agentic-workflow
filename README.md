@@ -27,12 +27,10 @@ GitHub → organizzazione → **Settings → Developer settings → GitHub Apps 
 1. Nome `ado-aw-copilot-<org>` · Homepage `https://github.com/githubnext/ado-aw` · **Webhook: disattiva**.
 2. **Organization permissions → Copilot Requests → Read-only** (nessun altro permesso).
 3. *Where can this GitHub App be installed?* → *Only on this account* → **Create GitHub App**.
-4. Copia l'**App ID** → **Generate a private key** → salva il file come `app.pem` (non committarlo).
+4. Copia l'**App ID** → Spostarsi in  **Credentials - > Key Pairs - > New Key** → e salvare il `.pem` (va tenuto al sicuro in KeyVault).
 5. **Install App** → installala sull'**organizzazione**.
 
 Risultato: hai un **App ID** e il file `app.pem`.
-Consigliato: *Billing and licensing → Budgets* → budget da 20 USD con **«Stop usage when budget limit is reached»**.
-`[solo GHE.com]` se «Copilot Requests» non compare tra i permessi, la preview non è disponibile sul tenant.
 
 ## Passo 2 — Imposta i valori (1 minuto)
 
